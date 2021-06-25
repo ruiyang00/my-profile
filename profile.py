@@ -24,6 +24,6 @@ node = request.RawPC("node")
 #node.addService(pg.Execute(shell="sh", command="/local/repository/silly.sh"))
 
 # Request that a specific image be installed on this node
-node.disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+flsys-PG0:SSDCaProfile-disk-image:0"
+node.disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+flsys-PG0:ditest:0"
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
